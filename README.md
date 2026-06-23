@@ -9,7 +9,7 @@ An AI-native, decentralized auto-battler arena built natively for **The Zero Cup
 ---
 
 ## 🌐 Live Deployment
-* **Production Build:** [PASTE_YOUR_LIVE_HOSTING_LINK_HERE]
+* **Production Build:** https://phoenix-arena-mu.vercel.app/
 * **Submission Tier:** Group Stage Snapshot (June 23, 2026)
 
 ---
