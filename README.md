@@ -1,47 +1,58 @@
-# 🤖⚔️ Prompt Gladiators: Autonomous Agent Arena
+# 🐦🔥 Phoenix: Autonomous Agent Arena
 
 [![Built with 0G Studio](https://img.shields.io/badge/Built%20with-0G%20Studio-cyan?style=for-the-badge)](https://app.0g.ai)
 [![Zero Cup 2026](https://img.shields.io/badge/Tournament-Zero%20Cup%202026-purple?style=for-the-badge)](https://0g.ai/arena/zero-cup)
 [![Infrastructure](https://img.shields.io/badge/0G%20Stack-Storage%20%26%20Compute-emerald?style=for-the-badge)](https://docs.0g.ai)
 
-An AI-native, text-based decentralized battle arena built for **The Zero Cup 2026** global vibe coding tournament.
+An AI-native, decentralized auto-battler arena built natively for **The Zero Cup 2026** global vibe coding tournament.
 
 ---
 
-## 🌌 Overview
-**Prompt Gladiators** reimagines competitive gaming by enabling anyone to program, deploy, and verify an autonomous combat AI agent using natural language alone. Instead of controlling characters manually, users input deep prompt instructions defining an agent's combat builds, tactical parameters, and behavioral traits. 
-
-The application sits directly at the intersection of gaming, decentralized data infrastructure, and verifiable AI inference. It demonstrates how zero-coded frontend designs can orchestrate complex, trustless agent interactions on open networks.
-
----
-
-## 🏗️ 0G Native Architecture (Deep Integration)
-To completely prevent the application from functioning as a superficial "bolt-on" shell, the core execution loop relies explicitly on the decentralized 0G network architecture:
-
-### 1. Persistent Identity (0G Storage)
-* **The Problem:** Traditional Web2 architectures store character parameters and profiles inside centralized server silos, leaving user data vulnerable to alteration or deletion.
-* **The 0G Solution:** Forged gladiators do not exist on a private database. When an agent is built inside the Forge dashboard, its structural metadata payload, dynamic base parameters (Strength, Agility, Intelligence), and core prompting context are pushed immutably onto **0G Storage**. The game interface dynamically retrieves these states directly from decentralized network hashes.
-
-### 2. Verifiable Combat Engine (0G Compute Network)
-* **The Problem:** In centralized game servers, fight outcomes can be manipulated behind closed doors, and AI generation can be easily faked or throttled.
-* **The 0G Solution:** The turn-based fight sequences, damage calculations, and combat storytelling are processed completely verifiably. The app pushes the instructions into the **0G Compute Network**, routing the requests via **TeeTLS-attested proxy brokers** to frontier open-weight models (like `GLM-5.2` and `MiniMax M3`) running inside secure Trusted Execution Environments (TEEs). 
-
-> 🔍 **Verifiable Proof:** Every dynamic trash-talk line, defensive counter-move, and tactical damage log outputted to the arena monitor is cryptographically bound to an on-chain execution trace.
+## 🌐 Live Deployment
+* **Production Build:** [PASTE_YOUR_LIVE_HOSTING_LINK_HERE]
+* **Submission Tier:** Group Stage Snapshot (June 23, 2026)
 
 ---
 
-## 🛠️ The Technology Stack
-* **UI Workspace:** Vibe-coded and prototyped inside **0G Studio** (`app.0g.ai`).
-* **Frontend Design:** Tailwind CSS with a responsive, dual-pane matrix dashboard.
-* **AI Coordination & Compute:** 0G Private Chat & Compute SDK endpoints.
+## 🌌 Project Overview
+**Phoenix** is an AI-native web application that shifts competitive gaming into a decentralized framework. Instead of steering characters via manual inputs, players interact via a dual-pane workspace matrix to code, configure, and battle autonomous agents using natural language. 
+
+The application sits directly at the core of decentralized data infrastructure and verifiable model execution, demonstrating how rapid vibe-coded interfaces can coordinate deep trustless game states without relying on centralized single points of failure.
+
+---
+
+## 🏗️ 0G Native Integration Blueprint
+
+To completely comply with the strict project guidelines and avoid "bolt-on" disqualification penalties, Phoenix coordinates its front-end actions across the core pillars of the 0G Network stack:
+
+### 1. Persistent Identity (0G Storage Layer)
+* **The Architecture:** Traditional gaming models lock player properties inside private corporate databases. In Phoenix, when a user defines an agent inside **The Agent Forge**, the custom prompt strings, calculated stats (Strength, Agility, Intelligence), and identity schemas are hashed and pushed immutably onto the high-throughput **0G Storage Network** utilizing Proof of Random Access (PoRA) verification.
+* **The Client Loop:** The application dashboard interacts directly with decentralized storage logs to fetch character snapshots, maintaining persistent memory purely onchain.
+
+### 2. Verifiable Combat Engine (0G Private Computer)
+* **The Architecture:** To prevent centralized server manipulation of gameplay rules, fight simulation commentary is completely verifiable. 
+* **The Model Matrix:** Turn-by-turn strategic narrative logs, damage computations, and custom dynamic dialogues are routed using secure **TeeTLS-attested proxy brokers** into frontier open-weight models (such as **GLM-5.2** and **Qwen 3.7 Max**) running verifiably inside isolated Trusted Execution Environments (TEEs) on the **0G Compute Network**.
+
+---
+
+## 🛠️ Technology Stack
+* **UI Workspace:** Prototyped and curated inside **0G Studio** (`app.0g.ai`).
+* **Client Frontend:** Responsive single-page application framework structured via Tailwind CSS.
 * **Storage Layer:** 0G High-Throughput Decentralized Storage architecture.
+* **Compute Node Engine:** 0G Private Chat & Verifiable Inference routing.
 
 ---
 
-## 🚀 Quick Local Workspace Initialization
+## 🏁 The Zero Cup 2026 Iteration Roadmap
 
-If you want to view, check, or audit the client-side interface layout locally on your machine:
+Per the tournament guidelines, teams excel by consistently pushing updates across the bracket timelines. Our implementation roadmap scales systematically between elimination cuts:
 
-1. Clone this public repository:
-```bash
-git clone [https://github.com/YOUR_GITHUB_USERNAME/prompt-gladiators.git](https://github.com/YOUR_GITHUB_USERNAME/prompt-gladiators.git)
+| Tournament Phase | Target Dates | Core Evolution Milestones |
+| :--- | :--- | :--- |
+| **Group Stage (Current)** | June 15 – June 23 | Deploy responsive frontend matrix, establish mock state engines, and secure verified infrastructure framing. |
+| **Knockout Stage (Top 32)** | June 28 – July 7 | Replace simulated handlers with live multi-chain SDK connections and wire up 0G Testnet faucet state flows. |
+| **Quarter-Finals Onward** | July 8 – July 19 | Polish visual pixel-art CSS battle frames to maximize public community voting traction during live head-to-head matches. |
+
+---
+
+*Developed natively during the tournament window starting June 15, 2026. Powered by Zero Gravity Labs infrastructure.*
